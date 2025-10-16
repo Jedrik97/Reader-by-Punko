@@ -1,0 +1,1242 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User794" at "2025-10-16T11:06:35.4217559Z"
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'ru' Physical Memory: 15483 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-16T11:06:35Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/User794/Documents/My Games/Reader-by-Punko/PuReader
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+51464
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/User794/Documents/My Games/Reader-by-Punko/PuReader
+C:/Users/User794/Documents/My Games/Reader-by-Punko/PuReader
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21180]  Target information:
+
+Player connection [21180]  * "[IP] 192.168.200.232 [Port] 0 [Flags] 2 [Guid] 1417491714 [EditorId] 1417491714 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FPB70SL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21180] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21180] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19752, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              63a2efb6e7014cc0a938e501c91822b6
+  Correlation Id:          338b58ffe947a0fa1861c2f5ac674d7b
+  External correlation Id: 3859044753720836295
+  Machine Id:              cOZLUj/KFfzHZYya1971pplPtS4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User794" (connect: 0.00s, validation: 0.00s, handshake: 0.13s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User794-notifications" at "2025-10-16T11:06:35.5538078Z"
+[Licensing::Module] Licensing Background thread has ended after 0.13s
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7971877438162-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 373.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User794/Documents/My Games/Reader-by-Punko/PuReader/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon 780M Graphics (ID=0x15bf)
+    Vendor:          ATI
+    VRAM:            7741 MB
+    App VRAM Budget: 7488 MB
+    Driver:          32.0.11029.1008
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.416540 seconds.
+- Loaded All Assemblies, in 14.612 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 288 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 15303ms
+	BeginReloadAssembly (11422ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (767ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (468ms)
+	LoadAllAssembliesAndSetupDomain (1942ms)
+		LoadAssemblies (11433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1924ms)
+			TypeCache.Refresh (1922ms)
+				TypeCache.ScanAssembly (1567ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (693ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (385ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in 12.359 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 13283ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (12063ms)
+		LoadAssemblies (11379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (802ms)
+			TypeCache.Refresh (732ms)
+				TypeCache.ScanAssembly (677ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (767ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6796 unused Assets / (8.6 MB). Loaded Objects now: 7471.
+Memory consumption went from 144.7 MB to 136.1 MB.
+Total: 14.722900 ms (FindLiveObjects: 1.337900 ms CreateObjectMapping: 0.728100 ms MarkObjects: 6.556100 ms  DeleteObjects: 6.099300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6780 unused Assets / (7.3 MB). Loaded Objects now: 7472.
+Memory consumption went from 142.3 MB to 135.0 MB.
+Total: 21.278000 ms (FindLiveObjects: 2.394100 ms CreateObjectMapping: 1.881100 ms MarkObjects: 9.945300 ms  DeleteObjects: 7.055700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.150 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.091 seconds
+Domain Reload Profiling: 2240ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (739ms)
+		LoadAssemblies (556ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (56ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (234ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1091ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (866ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6795 unused Assets / (6.6 MB). Loaded Objects now: 7476.
+Memory consumption went from 145.7 MB to 139.1 MB.
+Total: 21.492400 ms (FindLiveObjects: 2.091800 ms CreateObjectMapping: 2.190600 ms MarkObjects: 9.804200 ms  DeleteObjects: 7.403700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 73533.399868 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0135613 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007037 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007734 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010607 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005856 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014254 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015876 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007039 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006879 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007035 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007185 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007112 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000773 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000779 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008282 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006573 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009768 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007547 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007445 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007868 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000775 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017191 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006717 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011246 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007385 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006075 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006912 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009626 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007381 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007462 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006339 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015232 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007163 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007186 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000766 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011924 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009222 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001051 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010043 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011031 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007546 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007557 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010695 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000935 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007238 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015703 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007706 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016435 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007869 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008393 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007384 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007647 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012201 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008481 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+  ERROR: Build asset version error: assets/scripts/pdftroninit.cs in SourceAssetDB has modification time of '2025-10-16T11:13:53.4383675Z' while content on disk has modification time of '2025-10-16T11:14:00.2875052Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6780 unused Assets / (7.0 MB). Loaded Objects now: 7478.
+Memory consumption went from 146.5 MB to 139.5 MB.
+Total: 18.170200 ms (FindLiveObjects: 1.406700 ms CreateObjectMapping: 0.752700 ms MarkObjects: 9.545600 ms  DeleteObjects: 6.463300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.136319 seconds.
+  path: Assets/Scripts/PdftronInit.cs
+  artifactKey: Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PdftronInit.cs using Guid(1469acc75b29d2f419bfaeb750c9fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb39bfd5e409e6a950e7ef2e3dd32d1e') in 0.0026202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.052 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.825 seconds
+Domain Reload Profiling: 1877ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (501ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (61ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (228ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6795 unused Assets / (8.0 MB). Loaded Objects now: 7481.
+Memory consumption went from 146.4 MB to 138.4 MB.
+Total: 17.856300 ms (FindLiveObjects: 1.680300 ms CreateObjectMapping: 1.274500 ms MarkObjects: 8.318100 ms  DeleteObjects: 6.581800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6780 unused Assets / (7.4 MB). Loaded Objects now: 7481.
+Memory consumption went from 146.7 MB to 139.3 MB.
+Total: 21.136200 ms (FindLiveObjects: 2.354100 ms CreateObjectMapping: 0.854700 ms MarkObjects: 10.425900 ms  DeleteObjects: 7.499400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 158.899710 seconds.
+  path: Assets/Plugins/Android/src/com/punko/reader/ApryseBridge.java
+  artifactKey: Guid(e6f3e38be841a1b468ce68dc3dd21a23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Android/src/com/punko/reader/ApryseBridge.java using Guid(e6f3e38be841a1b468ce68dc3dd21a23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e0a635e89ff80bc056458c2441054ef') in 0.2655206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6781 unused Assets / (7.3 MB). Loaded Objects now: 7482.
+Memory consumption went from 146.5 MB to 139.3 MB.
+Total: 19.885600 ms (FindLiveObjects: 2.641100 ms CreateObjectMapping: 1.758300 ms MarkObjects: 9.512200 ms  DeleteObjects: 5.972200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.137 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.185 seconds
+Domain Reload Profiling: 2325ms
+	BeginReloadAssembly (353ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (530ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (48ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1187ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (913ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6797 unused Assets / (7.1 MB). Loaded Objects now: 7485.
+Memory consumption went from 146.6 MB to 139.5 MB.
+Total: 31.071400 ms (FindLiveObjects: 3.752900 ms CreateObjectMapping: 1.978700 ms MarkObjects: 14.774800 ms  DeleteObjects: 10.561800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6781 unused Assets / (7.6 MB). Loaded Objects now: 7485.
+Memory consumption went from 146.8 MB to 139.3 MB.
+Total: 25.242700 ms (FindLiveObjects: 2.614700 ms CreateObjectMapping: 1.795400 ms MarkObjects: 12.196500 ms  DeleteObjects: 8.634200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.138 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.167 seconds
+Domain Reload Profiling: 2308ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (751ms)
+		LoadAssemblies (519ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (62ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (267ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1168ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (907ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (561ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6797 unused Assets / (6.2 MB). Loaded Objects now: 7488.
+Memory consumption went from 146.9 MB to 140.7 MB.
+Total: 22.174800 ms (FindLiveObjects: 3.102700 ms CreateObjectMapping: 1.710600 ms MarkObjects: 11.246900 ms  DeleteObjects: 6.113000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.306335 seconds.
+  path: Assets/Scripts/AprysePdfRenderer.cs
+  artifactKey: Guid(a536f5a7d6886d34c8555ce730293c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AprysePdfRenderer.cs using Guid(a536f5a7d6886d34c8555ce730293c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8045f91ecfe3c06c89753dc13edea39') in 0.0044845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6781 unused Assets / (7.2 MB). Loaded Objects now: 7488.
+Memory consumption went from 146.6 MB to 139.5 MB.
+Total: 24.542100 ms (FindLiveObjects: 2.596100 ms CreateObjectMapping: 2.006900 ms MarkObjects: 11.510000 ms  DeleteObjects: 8.426700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 102.020149 seconds.
+  path: Assets/Scripts/AprysePdfRenderer.cs
+  artifactKey: Guid(a536f5a7d6886d34c8555ce730293c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AprysePdfRenderer.cs using Guid(a536f5a7d6886d34c8555ce730293c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8045f91ecfe3c06c89753dc13edea39') in 0.0012373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.218 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.259 seconds
+Domain Reload Profiling: 2480ms
+	BeginReloadAssembly (340ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (778ms)
+		LoadAssemblies (606ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (47ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (967ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (594ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6797 unused Assets / (7.1 MB). Loaded Objects now: 7491.
+Memory consumption went from 146.5 MB to 139.4 MB.
+Total: 25.954600 ms (FindLiveObjects: 2.524000 ms CreateObjectMapping: 1.059100 ms MarkObjects: 12.413400 ms  DeleteObjects: 9.956300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6781 unused Assets / (8.4 MB). Loaded Objects now: 7491.
+Memory consumption went from 146.7 MB to 138.3 MB.
+Total: 20.557800 ms (FindLiveObjects: 1.583300 ms CreateObjectMapping: 1.129500 ms MarkObjects: 10.007100 ms  DeleteObjects: 7.836100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.058 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.157 seconds
+Domain Reload Profiling: 2218ms
+	BeginReloadAssembly (286ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (490ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (58ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (228ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (901ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6797 unused Assets / (7.4 MB). Loaded Objects now: 7494.
+Memory consumption went from 146.8 MB to 139.5 MB.
+Total: 27.603300 ms (FindLiveObjects: 2.261500 ms CreateObjectMapping: 2.587000 ms MarkObjects: 12.799400 ms  DeleteObjects: 9.952800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 115.995953 seconds.
+  path: Assets/Scripts/AprysePdfRenderer.cs
+  artifactKey: Guid(a536f5a7d6886d34c8555ce730293c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AprysePdfRenderer.cs using Guid(a536f5a7d6886d34c8555ce730293c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8045f91ecfe3c06c89753dc13edea39') in 0.0032198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
