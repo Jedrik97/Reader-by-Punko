@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.punko.pureader"
-    android:installLocation="auto">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- uses-sdk в манифесте игнорируется Gradle'ом, берётся из Player Settings,
-         оставим всё равно для читаемости -->
-    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="34" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
+    <!-- В launcher-манифесте НЕ пишем <uses-sdk> и лишние permissions -->
     <application
         android:label="PuReader"
-        android:icon="@mipmap/app_icon"
-        android:allowBackup="true"
-        android:extractNativeLibs="true"
-        tools:replace="android:label,android:allowBackup,android:extractNativeLibs">
+        tools:replace="android:label">
 
-        <!-- Полностью заменяем UnityPlayerActivity, чтобы точно включить и ускорить -->
+        <!-- Полностью заменяем UnityPlayerActivity именно в launcher -->
         <activity
             android:name="com.unity3d.player.UnityPlayerActivity"
             android:exported="true"
@@ -29,7 +19,7 @@
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
             tools:node="replace">
 
-            <!-- Иконка в лаунчере -->
+            <!-- Иконка в меню -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -52,7 +42,7 @@
                 <data android:mimeType="application/pdf" />
             </intent-filter>
 
-            <!-- (необязательно) более широкий фильтр, если файловый менеджер ставит MIME криво -->
+            <!-- (опционально) более широкий фильтр, если файловый менеджер чудит с MIME -->
             <!--
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -64,6 +54,5 @@
             </intent-filter>
             -->
         </activity>
-
     </application>
 </manifest>
