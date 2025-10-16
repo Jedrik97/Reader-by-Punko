@@ -1,0 +1,3 @@
+C:\Users\User794\Documents\My Games\Reader-by-Punko\PuReader\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\User794\Documents\My Games\Reader-by-Punko\PuReader\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
+C:\Users\User794\Documents\My Games\Reader-by-Punko\PuReader\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
